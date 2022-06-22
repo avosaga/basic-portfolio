@@ -4,15 +4,8 @@ A simple project to calculate Portfolio profit based on stock information
 
 ## Requirements
 NodeJS >= 16.x.x
-
-## Install and execute example
-```
-yarn install && yarn start
-```
-or
-```
-npm install && npm start
-```
+<br>
+Run `yarn install` or `npm install` before anything else
 
 ## Build
 ```
@@ -40,3 +33,13 @@ or
 ```
 npm run lint
 ```
+
+## Run example
+```
+yarn build && yarn start
+```
+or
+```
+npm run build && npm start
+```
+
