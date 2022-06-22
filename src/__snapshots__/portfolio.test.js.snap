@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Portfolio should return calculated values when stocks are provided 1`] = `
+Array [
+  Object {
+    "currentPrice": 1,
+    "profit": 0,
+    "purchasePrice": 1,
+    "quantity": 1,
+    "symbol": "GOOGLE",
+  },
+  Object {
+    "currentPrice": 2,
+    "profit": 0,
+    "purchasePrice": 2,
+    "quantity": 1,
+    "symbol": "APPLE",
+  },
+  Object {
+    "currentPrice": 3,
+    "profit": 0,
+    "purchasePrice": 3,
+    "quantity": 1,
+    "symbol": "TESLA",
+  },
+]
+`;
