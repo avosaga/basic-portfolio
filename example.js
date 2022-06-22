@@ -1,7 +1,6 @@
-import { Portfolio } from './portfolio.js'
-import { Stock } from './stock.js'
+import { Portfolio, Stock } from './dist/index.js'
 
-async function main () {
+async function example () {
     const portfolio = new Portfolio()
     portfolio
         .add(new Stock('GOOGLE', new Date(2022, 1, 1)))
@@ -18,4 +17,4 @@ async function main () {
     console.table(annualizedReturn)
 }
 
-main()
+example()
